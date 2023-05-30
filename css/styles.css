@@ -78,6 +78,7 @@ a.contact-links:active {
   width: 1600px;
   height: 600px;
   background-color: #2f303a;
+  background-image: url(../images/background.jpg);
 }
 
 .introduction-main {
