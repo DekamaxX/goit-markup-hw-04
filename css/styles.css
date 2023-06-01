@@ -133,7 +133,7 @@ h1 {
   line-height: 188%;
 }
 
-title-lorem {
+.title-lorem {
   font-weight: 700;
   font-size: 14px;
   line-height: 100%;
@@ -190,6 +190,43 @@ title-lorem {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+
+.our-clients {
+  margin-bottom: 94px;
+}
+
+.our-clients-heading {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 94px;
+}
+
+.clients-icon {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.clients-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: #afb1b8;
+}
+
+.clients-logo:hover {
+  border-color: #2196f3;
+  border-radius: 4px;
+}
+
+.clients-logo:hover {
+  fill: #2196f3;
 }
 
 .footer {
