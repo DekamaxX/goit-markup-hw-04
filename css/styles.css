@@ -26,6 +26,7 @@ p {
   margin: 0;
   padding: 0;
 }
+
 .web-logo {
   font-family: "Raleway";
   font-style: normal;
@@ -41,7 +42,6 @@ p {
 .web {
   color: #2196f3;
 }
-
 a.menu-links:link {
   color: #212121;
 }
@@ -54,37 +54,23 @@ a.menu-links:hover {
 a.menu-links:active {
   color: #212121;
 }
-
+a.contact-links:link {
+  color: #757575;
+}
+a.contact-links:visited {
+  color: #757575;
+}
+a.contact-links:hover {
+  color: #2196f3;
+  fill: #2196f3;
+}
+a.contact-links:active {
+  color: #757575;
+}
 .contacts-list {
   font-weight: 500;
   font-size: 14px;
   line-height: 100%;
-}
-
-.contact-links-mail .contact-links-phone {
-  font-weight: 500;
-  color: #757575;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-
-.contact-links-mail {
-  margin-right: 50px;
-}
-.link {
-  text-decoration: none;
-}
-
-.link:hover,
-.link:focus {
-  color: #2196f3;
-}
-
-.contact-icon {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 .main-box {
   width: 1600px;
@@ -92,14 +78,12 @@ a.menu-links:active {
   background-color: #2f303a;
   background-image: url(../images/background.jpg);
 }
-
 .introduction-main {
   display: flex;
   flex-direction: column;
   width: 1200px;
   height: 600px;
 }
-
 .theme-website {
   display: flex;
   flex-direction: column;
@@ -108,7 +92,6 @@ a.menu-links:active {
   width: 1200px;
   padding-bottom: 30px;
 }
-
 h1 {
   display: flex;
   max-width: 696px;
@@ -120,12 +103,10 @@ h1 {
   color: #ffffff;
   padding-top: 200px;
 }
-
 .button-list {
   display: flex;
   justify-content: center;
 }
-
 .button-main {
   /* bg */
   width: 200px;
@@ -133,7 +114,6 @@ h1 {
   background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-
   color: #ffffff;
   cursor: pointer;
   font-weight: 700;
@@ -154,7 +134,6 @@ h1 {
   background-color: #f5f4fa;
   margin-bottom: 30px;
 }
-
 .title-lorem {
   font-weight: 700;
   font-size: 14px;
@@ -162,25 +141,21 @@ h1 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
 .text-lorem {
   font-size: 14px;
   line-height: 171%;
   letter-spacing: 0.03em;
   color: #757575;
 }
-
 .box {
   line-height: 171%;
   color: #757575;
 }
-
 .about-us {
   font-weight: 700;
   font-size: 36px;
   line-height: 100%;
 }
-
 .heading {
   display: flex;
   flex-direction: column;
@@ -188,17 +163,14 @@ h1 {
   padding-top: 94px;
   padding-bottom: 50px;
 }
-
 .about-us-img {
   width: 370px;
   height: 294px;
 }
-
 .team {
   width: 1600px;
   background-color: #f5f4fa;
 }
-
 .our-team-title {
   display: flex;
   justify-content: center;
@@ -209,6 +181,7 @@ h1 {
 .card {
   display: block;
   width: 270px;
+  height: 368px;
   height: 428px;
 
   background-color: #ffffff;
@@ -216,24 +189,20 @@ h1 {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
 .our-clients {
   margin-bottom: 94px;
 }
-
 .our-clients-heading {
   display: flex;
   justify-content: center;
   margin: 0 auto;
   padding-top: 94px;
 }
-
 .clients-icon {
   display: flex;
   justify-content: space-between;
   padding-top: 50px;
 }
-
 .clients-logo {
   display: flex;
   justify-content: center;
@@ -244,16 +213,13 @@ h1 {
   border-radius: 4px;
   fill: #afb1b8;
 }
-
 .clients-logo:hover {
   border-color: #2196f3;
   border-radius: 4px;
 }
-
 .clients-logo:hover {
   fill: #2196f3;
 }
-
 .footer {
   width: 1600px;
   height: 252px;
@@ -262,18 +228,15 @@ h1 {
   padding-top: 60px;
   margin: 0px;
 }
-
 .footer-box {
   display: flex;
   justify-content: flex-start;
 }
-
 .address-footer {
   display: block;
   justify-content: flex-start;
   margin-right: 70px;
 }
-
 .footer-top-line {
   font-family: "Raleway";
   font-style: normal;
@@ -283,21 +246,18 @@ h1 {
   color: #ffffff;
   padding-bottom: 20px;
 }
-
 .footer-location {
   font-size: 14px;
   line-height: 171%;
   color: #ffffff;
   letter-spacing: 0.03em;
 }
-
 .footer-contact {
   font-size: 14px;
   line-height: 171%;
   color: rgba(255, 255, 255, 0.6);
   letter-spacing: 0.03em;
 }
-
 .footer-contact-mail {
   font-size: 14px;
   line-height: 171%;
@@ -305,11 +265,9 @@ h1 {
   letter-spacing: 0.03em;
   text-decoration-line: underline;
 }
-
 .join-us-footer {
   display: block;
 }
-
 .join-us-title {
   display: flex;
   font-weight: 700;
@@ -320,12 +278,10 @@ h1 {
   color: #ffffff;
   padding-bottom: 20px;
 }
-
 .footer-social-media {
   display: flex;
   gap: 10px;
 }
-
 .social-media-footer-icons {
   display: flex;
   justify-content: center;
@@ -338,19 +294,16 @@ h1 {
   background-color: rgba(255, 255, 255, 0.1);
   fill: #ffffff;
 }
-
 .social-media-footer-icons:hover {
   fill: #ffffff;
   background-color: #2196f3;
 }
-
 .button-portfolio {
   height: 38px;
   background-color: #f5f4fa;
   border: none;
   border-radius: 4px;
   padding: 6px 22px;
-
   color: #212121;
   cursor: pointer;
   font-weight: 500;
@@ -359,7 +312,6 @@ h1 {
   text-align: center;
   letter-spacing: 0.03em;
 }
-
 .button-portfolio:link {
   background-color: #f5f4fa;
   color: #212121;
@@ -371,7 +323,6 @@ h1 {
 .button-portfolio:hover {
   background-color: #2196f3;
   color: #ffffff;
-
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -380,7 +331,6 @@ h1 {
   background-color: #2196f3;
   color: #ffffff;
 }
-
 .project-card {
   display: flex;
   flex-direction: column;
@@ -389,7 +339,6 @@ h1 {
   margin-bottom: 15px;
   margin-top: 15px;
 }
-
 .card-border {
   display: block;
   justify-content: flex-start;
@@ -407,24 +356,20 @@ h1 {
   margin: 0 auto;
   padding: 20px 24px;
 }
-
 .project-name {
   font-weight: 700;
   font-size: 18px;
   line-height: 200%;
 }
-
 .project-description {
   font-size: 16px;
   line-height: 188%;
   color: #757575;
 }
-
 .container {
   width: 1200px;
   margin: 0 200px;
 }
-
 .navigation-container {
   display: flex;
   justify-content: space-between;
@@ -432,13 +377,11 @@ h1 {
   border-bottom-style: solid;
   border-bottom-color: #ececec;
 }
-
 .team-main {
   background-color: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
 .logo-nav {
   display: flex;
   justify-content: flex-start;
@@ -453,7 +396,6 @@ h1 {
   padding-top: 32px;
   margin-left: 0;
 }
-
 .nav-list {
   display: flex;
   justify-content: space-between;
@@ -462,11 +404,14 @@ h1 {
   font-size: 14px;
   line-height: 16px;
 }
-
 .contacts-menu {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 321px;
+  row-gap: 30px;
+  padding-top: 32px;
 }
-
 .contacts-nav {
   display: flex;
   justify-content: space-between;
@@ -487,19 +432,22 @@ h1 {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
+
+.contacts-position:hover {
+  color: #2196f3;
+  fill: #2196f3;
+}
 .contact-links {
   display: flex;
   justify-content: flex-end;
   padding: 0;
 }
-
 .lorem-list {
   display: flex;
   justify-content: space-between;
   gap: 30px;
   padding-top: 94px;
 }
-
 .work-photos {
   display: flex;
   justify-content: space-between;
@@ -507,14 +455,12 @@ h1 {
   gap: 30px;
   padding-bottom: 94px;
 }
-
 .team-photos {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 30px;
 }
-
 .card-name {
   color: #212121;
   display: flex;
@@ -568,47 +514,21 @@ h1 {
   padding-bottom: 34px;
   margin: 0 auto;
 }
-
 .position-name {
   color: #757575;
   display: flex;
   justify-content: center;
 }
-
 .portfolio-menu {
   display: flex;
   justify-content: center;
   gap: 8px;
   padding: 0px 22px;
 }
-
 .projects {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 15px;
   margin-bottom: 94px;
-}
-.contacts-position {
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-  align-items: center;
-  padding-right: 0px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;}
-
-a.contact-links:link {
-  color: #757575;
-}
-a.contact-links:visited {
-  color: #757575;
-}
-a.contact-links:hover {
-  color: #2196f3;
-}
-a.contact-links:active {
-  color: #757575;
 }
