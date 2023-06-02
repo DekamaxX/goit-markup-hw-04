@@ -55,29 +55,37 @@ a.menu-links:active {
   color: #212121;
 }
 
-a.contact-links:link {
-  color: #757575;
-}
-a.contact-links:visited {
-  color: #757575;
-}
-a.contact-links:hover {
-  color: #2196f3;
-}
-a.contact-links:active {
-  color: #757575;
-}
-
 .contacts-list {
   font-weight: 500;
   font-size: 14px;
   line-height: 100%;
 }
 
-.contact-icon:hover {
-  fill: #2196f3;
+.contact-links-mail .contact-links-phone {
+  font-weight: 500;
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
+.contact-links-mail {
+  margin-right: 50px;
+}
+.link {
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+
+.contact-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .main-box {
   width: 1600px;
   height: 600px;
@@ -457,12 +465,8 @@ h1 {
 
 .contacts-menu {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 321px;
-  row-gap: 30px;
-  padding-top: 32px;
 }
+
 .contacts-nav {
   display: flex;
   justify-content: space-between;
@@ -472,7 +476,6 @@ h1 {
   padding-bottom: 32px;
   row-gap: 30px;
 }
-
 .contacts-position {
   display: flex;
   justify-content: space-between;
@@ -483,9 +486,6 @@ h1 {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-}
-.contacts-position:hover {
-  color: #2196f3;
 }
 .contact-links {
   display: flex;
@@ -588,4 +588,27 @@ h1 {
   justify-content: space-between;
   gap: 15px;
   margin-bottom: 94px;
+}
+.contacts-position {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  padding-right: 0px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;}
+
+a.contact-links:link {
+  color: #757575;
+}
+a.contact-links:visited {
+  color: #757575;
+}
+a.contact-links:hover {
+  color: #2196f3;
+}
+a.contact-links:active {
+  color: #757575;
 }
